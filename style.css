@@ -10,7 +10,7 @@ img {
 }
 
 .arama {
-    width: 300px;
+    width: 400px;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -18,9 +18,14 @@ img {
 }
 
 .btn {
-    padding: 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
+    padding: 7px;
+    font-size: 17px;
+    margin-top: 13px;
+    border: none;
+}
+
+.btn:hover {
+    border: solid rgb(214, 214, 214);
 }
 
 .ustmenu {
@@ -29,6 +34,15 @@ img {
     padding-right: 10px; 
     font-size: 18px; 
     background: rgb(212, 212, 212); margin: -8px;
+}
+
+.ustmenu a {
+    text-decoration: none;
+    color: black;
+}
+
+.ustmenu a:hover {
+    color: grey;
 }
 
 .gelismis{
@@ -43,4 +57,6 @@ padding-left: 50px;
     font-size: 20px;
     background: #4f4fff;
     color: white;
+    margin-top: 15px;
+    
 }

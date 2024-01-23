@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html lang="tr">
     <head>
-            <title>Arama</title>
+            <title>Gelişmiş Arama</title>
             <link rel="stylesheet" href="style.css">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     </head>
         <body>
             <div class="ustmenu">
-                <a href="gorselarama.html" style="padding-right: 16px;">Görsel Arama</a>
-                <a href="gelismis.html">Gelişmiş Arama</a>
+                <a href="index.html" style="padding-right: 16px;">Google Arama</a>
             </div>
             <a href="index.html"><img src="logo/image.png" width="100"></a>                                
 
-            <form class="gelismis" action="https://www.google.com/search">
-                Bütün kelimeler:&nbsp;<input type="text" name="as_q" >
-                <br><br>Tam kelime/ifade:&nbsp;<input type="text" name="as_epq" >
-                <br><br>Bu kelimelerden herhangi biri:&nbsp;<input type="text" name="as_oq" >
-                <br><br>Bu kelimelerin hiçbiri:&nbsp;<input type="text" name="as_eq" >
-                <br><br><input class="gelismisbtn" type="submit" value="Gelişmiş Arama">
-            </form>
+
+<div class="container">
+        <form class="gelismis" action="https://www.google.com/search">
+            <div class="form-group row">
+                  <label for="inputPassword" class="col-sm-2 col-form-label">Bütün kelimeler:</label>
+                  <div class="col-sm-3">
+                    <input type="text" class="form-control" id="inputPassword" name="as_q" >
+                  </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Tam kelime/ifade:</label>
+                    <div class="col-sm-3">
+                      <input type="text" class="form-control" id="inputPassword" name="as_epq" >
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Bu kelimelerden herhangi biri:</label>
+                    <div class="col-sm-3">
+                      <input type="text" class="form-control" id="inputPassword" name="as_eq">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Bu kelimelerin hiçbiri:</label>
+                    <div class="col-sm-3">
+                      <input type="text" class="form-control" id="inputPassword"  name="as_eq" >
+                    </div>
+                  </div>
+                  <input class="gelismisbtn" type="submit" value="Gelişmiş Arama">
+              </form>
+            </div>
         </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</form>
